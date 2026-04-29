@@ -5,7 +5,7 @@
 > desarrollo web profesional y soluciones digitales optimizadas
 > para aparecer en búsquedas de IA.
 
-🔗 **Demo en vivo:** https://stanvanger.github.io/gasomotores/ *(actualizar con URL real)*
+🔗 **Demo en vivo:**https://stanvanger.github.io/VorticeDev/)
 📁 **GitHub:** https://github.com/Stanvanger
 
 ---
