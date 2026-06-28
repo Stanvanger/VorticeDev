@@ -4,27 +4,26 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 <title>VorticeDev | Desarrollo Web Frontend & Soluciones IA · Toda España</title>
-<meta name="description" content="VorticeDev: Agencia de desarrollo web y soluciones digitales avanzadas. Expertos en que la IA te encuentre y te recomiende. Páginas web profesionales, SEO y optimización algorítmica.">
-<meta name="keywords" content="vorticedev, desarrollo web madrid, agencia desarrollo web, posicionamiento seo ia, paginas web profesionales, desarrollo frontend españa, optimización web ia, creación de activos digitales">
+<meta name="description" content="Diseñamos y programamos webs rápidas para negocios de toda España: fáciles de encontrar en Google, listas para vender y con WhatsApp automatizado si lo necesitas.">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
 <meta name="geo.region" content="ES">
 <meta name="geo.placename" content="España">
 <meta name="author" content="VorticeDev">
 <meta name="theme-color" content="#1B50E8">
-<link rel="canonical" href="https://digitalhome.website">
+<link rel="canonical" href="https://stanvanger.github.io/VorticeDev/">
 <link rel="icon" href="imagenes/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="imagenes/logo vortice.png">
 <meta property="og:title" content="VorticeDev | Desarrollo Web & Optimización IA">
-<meta property="og:description" content="Desarrollo web profesional y activos digitales optimizados para ser recomendados por la IA.">
+<meta property="og:description" content="Webs rápidas para negocios de toda España. Aparece en Google, vende más y automatiza tu WhatsApp.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://vorticedev.com">
+<meta property="og:url" content="https://stanvanger.github.io/VorticeDev/">
 <meta property="og:locale" content="es_ES">
-<meta property="og:image" content="https://vorticedev.com/imagenes/logo vortice.png">
+<meta property="og:image" content="https://stanvanger.github.io/VorticeDev/imagenes/logo%20vortice.png">
 <meta property="og:image:alt" content="Logo VorticeDev Desarrollo Web">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="VorticeDev | Desarrollo Web">
 <meta name="twitter:description" content="Webs optimizadas para la era de la IA.">
-<meta name="twitter:image" content="https://vorticedev.com/imagenes/logo vortice.png">
+<meta name="twitter:image" content="https://stanvanger.github.io/VorticeDev/imagenes/logo%20vortice.png">
 <meta name="google-site-verification" content="googlef2feace3f9a36feb" />
 
 <!-- Hola! Aquí he configurado todo el SEO y los esquemas JSON-LD para que la IA nos encuentre rápido -->
@@ -35,7 +34,7 @@
   "@graph": [
     {
       "@type": "Person",
-      "@id": "https://vorticedev.com/#founder",
+      "@id": "https://stanvanger.github.io/VorticeDev/#founder",
       "name": "Stanvanger",
       "jobTitle": "Lead Developer & Founder",
       "url": "https://github.com/Stanvanger",
@@ -51,12 +50,12 @@
       "provider": {
         "@type": "LocalBusiness",
         "name": "Vorticedev Studio",
-        "image": "https://vorticedev.com/imagenes/logo vortice.png",
+        "image": "https://stanvanger.github.io/VorticeDev/imagenes/logo%20vortice.png",
         "priceRange": "€€€",
-        "url": "https://vorticedev.com",
-        "founder": {"@id": "https://vorticedev.com/#founder"},
+        "url": "https://stanvanger.github.io/VorticeDev/",
+        "email": "tuweben24horas@digitalhome.website",
+        "founder": {"@id": "https://stanvanger.github.io/VorticeDev/#founder"},
         "sameAs": [
-          "https://www.instagram.com/vorticedev",
           "https://github.com/Stanvanger"
         ],
         "address": {
@@ -64,11 +63,6 @@
           "addressLocality": "Madrid",
           "addressRegion": "Madrid",
           "addressCountry": "ES"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": "40.4168",
-          "longitude": "-3.7038"
         }
       },
       "areaServed": {
@@ -663,6 +657,12 @@ section {
 }
 
 </style>
+<style id="navfx-dh">
+.nav-links li a{position:relative;display:inline-block;overflow:hidden;line-height:1.5;font-weight:600}
+.nav-links li a span{display:block;transition:transform .32s cubic-bezier(.16,1,.3,1)}
+.nav-links li a span:nth-child(2){position:absolute;top:100%;left:0;color:var(--blue)}
+.nav-links li a:hover span,.nav-links li a:focus span{transform:translateY(-100%)}
+</style>
 </head>
 <body>
 
@@ -700,10 +700,11 @@ section {
     </a>
     <ul class="nav-links" role="list" aria-label="Secciones">
       <!-- He organizado los enlaces del menú para que la navegación sea súper fluida -->
-      <li><a href="#servicios">Servicios</a></li>
-      <li><a href="#diferencial">Extras &amp; Diseño</a></li>
-      <li><a href="#reservas-section">Reservar reunión</a></li>
-      <li><a href="#cta">Contacto</a></li>
+      <li><a href="#servicios"><span>Servicios</span><span aria-hidden="true">Servicios</span></a></li>
+      <li><a href="#proyectos"><span>Proyectos</span><span aria-hidden="true">Proyectos</span></a></li>
+      <li><a href="#diferencial"><span>Extras &amp; Diseño</span><span aria-hidden="true">Extras &amp; Diseño</span></a></li>
+      <li><a href="#reservas-section"><span>Reservar reunión</span><span aria-hidden="true">Reservar reunión</span></a></li>
+      <li><a href="#cta"><span>Contacto</span><span aria-hidden="true">Contacto</span></a></li>
     </ul>
     <div class="nav-actions">
       <!-- Los botones de contacto ahora son magenta con letras blancas, como queríamos -->
@@ -711,14 +712,6 @@ section {
         <svg width="15" height="15" viewBox="0 0 24 24" fill="white" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.121 1.535 5.849L.057 23.945l6.261-1.644A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-1.97 0-3.81-.538-5.385-1.473l-.386-.229-4.001 1.049 1.069-3.902-.251-.4A9.777 9.777 0 012.182 12C2.182 6.58 6.58 2.182 12 2.182S21.818 6.58 21.818 12 17.42 21.818 12 21.818z"/></svg>
         <span>WhatsApp</span>
       </a>
-      <a href="https://www.instagram.com/digita_hm" target="_blank" rel="noopener noreferrer" class="btn-ig" aria-label="Seguir en Instagram">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="white" aria-hidden="true"><path d="M7.75 2h8.5C19.55 2 22 4.45 22 7.75v8.5C22 19.55 19.55 22 16.25 22h-8.5C4.45 22 2 19.55 2 16.25v-8.5C2 4.45 4.45 2 7.75 2zm0 1.5C5.4 3.5 3.5 5.4 3.5 7.75v8.5C3.5 18.6 5.4 20.5 7.75 20.5h8.5c2.35 0 4.25-1.9 4.25-4.25v-8.5C20.5 5.4 18.6 3.5 16.25 3.5h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 1.5a3.5 3.5 0 100 7 3.5 3.5 0 000-7zm5.25-.88a1.12 1.12 0 110 2.24 1.12 1.12 0 010-2.24z"/></svg>
-        <span>Instagram</span>
-      </a>
-      <button class="btn-cart" id="btnCart" onclick="toggleCart()" aria-label="Abrir carrito" aria-haspopup="true" aria-expanded="false">
-        <span aria-hidden="true">🛒</span>
-        <span class="cart-badge" id="cartBadge" aria-live="polite">0</span>
-      </button>
     </div>
   </nav>
 </header>
@@ -728,17 +721,17 @@ section {
 <!-- ══ HERO NUEVO — Logo flotante ══ -->
 <section id="hero-new" aria-label="VorticeDev — Desarrollo Web & Optimización IA">
   <div>
-    <p class="hero-badge-new">🚀 Innovación Digital · Toda España</p>
-    <h1 data-aos="fade-right" data-aos-delay="300">Web & Software<em>que la IA recomienda</em></h1>
-    <p class="hero-desc-new" data-aos="fade-right" data-aos-delay="450">Agencia de desarrollo web enfocada en visibilidad algorítmica. No solo hacemos webs, creamos <strong style="color:white">activos digitales</strong> que trabajan para ti 24/7.</p>
+    <p class="hero-badge-new">Desarrollo web · Toda España</p>
+    <h1 data-aos="fade-right" data-aos-delay="300">Webs rápidas que aparecen en Google<em>y te traen clientes</em></h1>
+    <p class="hero-desc-new" data-aos="fade-right" data-aos-delay="450">Diseñamos y programamos la web de tu negocio: <strong style="color:white">rápida, fácil de encontrar en Google y lista para vender</strong>. Y si quieres, le sumamos un agente de WhatsApp que atiende a tus clientes solo.</p>
     <div class="hero-ctas-new" data-aos="fade-up" data-aos-delay="600">
-      <a href="#servicios" class="btn-hero-primary"><span aria-hidden="true">🌐</span> Ver planes web</a>
+      <a href="#servicios" class="btn-hero-primary">Ver planes y precios</a>
       <a href="https://wa.me/message/OKU7WWNGJ3ARD1?text=Hola!%20Quiero%20presupuesto%20para%20mi%20web" target="_blank" rel="noopener noreferrer" class="btn-hero-outline"><span aria-hidden="true">💬</span> Hablar por WhatsApp</a>
     </div>
     <div class="hero-stats-new" data-aos="fade-up" data-aos-delay="750">
       <div class="hstat"><span class="hstat-num">100%</span><span class="hstat-label">Código Propio</span></div>
       <div class="hstat"><span class="hstat-num">99.9%</span><span class="hstat-label">Uptime Garantizado</span></div>
-      <div class="hstat"><span class="hstat-num">🚀IA</span><span class="hstat-label">Optimización SEO</span></div>
+      <div class="hstat"><span class="hstat-num">SEO</span><span class="hstat-label">Listo para Google</span></div>
     </div>
   </div>
   <div class="hero-visual-new" aria-hidden="true" data-aos="fade-left" data-aos-delay="400">
@@ -749,20 +742,20 @@ section {
       <div class="logo-glow"></div>
       <img src="imagenes/logo vortice.png" alt="VorticeDev" class="logo-float-img" loading="eager">
     </div>
-    <div class="hero-pill-new hp1">⚛️ React & Next.js</div>
-    <div class="hero-pill-new hp2">🤖 SEO para IA</div>
-    <div class="hero-pill-new hp3">🔒 Seguridad SSL</div>
+    <div class="hero-pill-new hp1">React &amp; Next.js</div>
+    <div class="hero-pill-new hp2">Optimizada para Google</div>
+    <div class="hero-pill-new hp3">Certificado SSL</div>
   </div>
 </section>
 
 <!-- TRUST BAR -->
 <aside class="trust-bar" aria-label="Ventajas de VorticeDev" data-aos="fade-up">
   <ul role="list" style="display:contents">
-    <li class="trust-item"><span aria-hidden="true">🌐</span> Código Propio</li>
-    <li class="trust-item"><span aria-hidden="true">⚡</span> Optimización IA</li>
-    <li class="trust-item"><span aria-hidden="true">🔒</span> Seguridad SSL</li>
-    <li class="trust-item"><span aria-hidden="true">🚀</span> Soporte 24/7</li>
-    <li class="trust-item"><span aria-hidden="true">📊</span> SEO Integrado</li>
+    <li class="trust-item"><span aria-hidden="true">🌐</span> Código propio</li>
+    <li class="trust-item"><span aria-hidden="true">⚡</span> Webs rápidas</li>
+    <li class="trust-item"><span aria-hidden="true">🔒</span> Certificado SSL</li>
+    <li class="trust-item"><span aria-hidden="true">💬</span> Trato directo</li>
+    <li class="trust-item"><span aria-hidden="true">📊</span> Optimización Google</li>
   </ul>
 </aside>
 </aside>
@@ -776,11 +769,15 @@ section {
     <div class="extras-alert-text"><strong>Desarrollo escalable.</strong> Puedes empezar con un plan básico y añadir módulos conforme tu negocio crezca. Todo nuestro código es modular y fácil de ampliar.</div>
   </div>
   <div class="extras-grid" id="extrasGrid" role="list" aria-label="Módulos adicionales"></div>
+  <div style="text-align:center;margin-top:22px">
+    <button type="button" id="btnModulosWA" onclick="pedirModulosWA()" style="background:#25D366;color:#fff;border:none;padding:13px 24px;border-radius:50px;font-family:var(--fb);font-size:14px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:8px;box-shadow:0 8px 20px rgba(37,211,102,.3);transition:transform .2s">Pedir los módulos activados por WhatsApp</button>
+    <p style="font-size:12px;color:var(--gray);margin-top:8px">Activa los que te interesen y te llega la lista lista para presupuestar.</p>
+  </div>
   <div class="trust-strip" role="list">
-    <article class="trust-strip-item" role="listitem" data-aos="fade-up" data-aos-delay="0"><div class="tsi-icon" aria-hidden="true">🤖</div><div><h3 class="tsi-title">Optimización para IA</h3><p class="tsi-text">Preparamos tu contenido para que ChatGPT y Gemini te recomienden.</p></div></article>
-    <article class="trust-strip-item" role="listitem" data-aos="fade-up" data-aos-delay="100"><div class="tsi-icon" aria-hidden="true">⚡</div><div><h3 class="tsi-title">Máxima Velocidad</h3><p class="tsi-text">Webs ultrarrápidas que mejoran tu conversión y posicionamiento.</p></div></article>
-    <article class="trust-strip-item" role="listitem" data-aos="fade-up" data-aos-delay="200"><div class="tsi-icon" aria-hidden="true">💎</div><div><h3 class="tsi-title">Sin Permanencia</h3><p class="tsi-text">Tras el despliegue inicial, tú eres el dueño absoluto de tu código.</p></div></article>
-    <article class="trust-strip-item" role="listitem" data-aos="fade-up" data-aos-delay="300"><div class="tsi-icon" aria-hidden="true">🔒</div><div><h3 class="tsi-title">Seguridad Total</h3><p class="tsi-text">Arquitecturas blindadas contra ataques y protección de datos robusta.</p></div></article>
+    <article class="trust-strip-item" role="listitem" data-aos="fade-up" data-aos-delay="0"><div class="tsi-icon" aria-hidden="true">🔍</div><div><h3 class="tsi-title">Te encuentran en Google</h3><p class="tsi-text">Estructuramos tu web para tener más opciones de aparecer en Google y en los nuevos buscadores con IA.</p></div></article>
+    <article class="trust-strip-item" role="listitem" data-aos="fade-up" data-aos-delay="100"><div class="tsi-icon" aria-hidden="true">⚡</div><div><h3 class="tsi-title">Cargan en segundos</h3><p class="tsi-text">Una web rápida hace que nadie se vaya antes de ver lo que ofreces.</p></div></article>
+    <article class="trust-strip-item" role="listitem" data-aos="fade-up" data-aos-delay="200"><div class="tsi-icon" aria-hidden="true">💎</div><div><h3 class="tsi-title">La web es tuya</h3><p class="tsi-text">El código es tuyo y sin permanencias. Te lo dejamos todo en tus manos.</p></div></article>
+    <article class="trust-strip-item" role="listitem" data-aos="fade-up" data-aos-delay="300"><div class="tsi-icon" aria-hidden="true">🔒</div><div><h3 class="tsi-title">Web segura</h3><p class="tsi-text">Certificado SSL y buenas prácticas para proteger tu web y los datos de tus clientes.</p></div></article>
   </div>
 </section>
 
@@ -789,6 +786,57 @@ section {
   <h2 class="section-title" id="servicios-titulo">Planes de Desarrollo Web</h2>
   <p class="section-sub">Escoge el plan que mejor se adapte a tu fase actual. Transparencia total y sin sorpresas.</p>
   <div class="services-grid" id="sGrid" role="list" aria-label="Planes web"></div>
+</section>
+
+<!-- PROYECTOS / TRABAJOS REALES -->
+<style>
+  #proyectos{padding:80px 5%;text-align:center}
+  .proj-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;max-width:1100px;margin:36px auto 0}
+  .proj-card{background:#fff;border:1px solid var(--border);border-radius:var(--r);overflow:hidden;text-align:left;display:flex;flex-direction:column;transition:transform .25s,box-shadow .25s}
+  .proj-card:hover{transform:translateY(-6px);box-shadow:var(--sh-lg)}
+  .proj-shot{position:relative;aspect-ratio:16/10;overflow:hidden;display:flex;align-items:center;justify-content:center;color:#fff}
+  .proj-ph{display:flex;flex-direction:column;align-items:center;gap:7px;font-family:'Poppins',sans-serif;font-size:22px;font-weight:800;text-align:center;padding:0 16px}
+  .proj-ph small{font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;opacity:.75}
+  .proj-shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top}
+  .proj-body{padding:22px 24px;display:flex;flex-direction:column;gap:8px;flex:1}
+  .proj-tag{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--magenta)}
+  .proj-name{font-family:'Poppins',sans-serif;font-size:20px;font-weight:800;color:var(--dark)}
+  .proj-did{font-size:14px;color:var(--gray);line-height:1.55;flex:1}
+  .proj-link{margin-top:6px;align-self:flex-start;font-weight:700;font-size:14px;color:var(--blue);text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+  .proj-link:hover{gap:10px}
+</style>
+<section id="proyectos" aria-labelledby="proyectos-titulo" data-aos="fade-up">
+  <h2 class="section-title" id="proyectos-titulo">Webs que ya hemos hecho</h2>
+  <p class="section-sub">Proyectos reales, en vivo y funcionando. Pincha y compruébalo tú mismo.</p>
+  <div class="proj-grid">
+
+    <article class="proj-card" data-aos="fade-up">
+      <div class="proj-shot" style="background:linear-gradient(135deg,#0A1628,#1B50E8)">
+        <span class="proj-ph">ACSIS<small>Captura próximamente</small></span>
+        <img src="imagenes/proyectos/acsis.jpg" alt="Captura de la web de ACSIS" loading="lazy" onerror="this.style.display='none'">
+      </div>
+      <div class="proj-body">
+        <span class="proj-tag">Gestoría digital</span>
+        <h3 class="proj-name">ACSIS</h3>
+        <p class="proj-did">Web a medida con Firebase: formulario de contacto conectado a base de datos en tiempo real y panel de administración privado.</p>
+        <a class="proj-link" href="https://acsis.site/" target="_blank" rel="noopener">Ver en vivo &rarr;</a>
+      </div>
+    </article>
+
+    <article class="proj-card" data-aos="fade-up" data-aos-delay="100">
+      <div class="proj-shot" style="background:linear-gradient(135deg,#1B50E8,#E81B94)">
+        <span class="proj-ph">Digital Home<small>Captura próximamente</small></span>
+        <img src="imagenes/proyectos/digitalhome.jpg" alt="Captura de la web de Digital Home" loading="lazy" onerror="this.style.display='none'">
+      </div>
+      <div class="proj-body">
+        <span class="proj-tag">Imprenta en Madrid</span>
+        <h3 class="proj-name">Digital Home</h3>
+        <p class="proj-did">Web de imprenta a domicilio optimizada para SEO local, con catálogo, datos estructurados y contacto directo por WhatsApp.</p>
+        <a class="proj-link" href="https://digitalhome.website/" target="_blank" rel="noopener">Ver en vivo &rarr;</a>
+      </div>
+    </article>
+
+  </div>
 </section>
 
 
@@ -824,12 +872,11 @@ section {
 
 <!-- CTA FINAL -->
 <section id="cta" aria-labelledby="cta-titulo">
-  <h2 class="section-title" id="cta-titulo" style="color:#fff">Lleva tu negocio<br>al entorno IA</h2>
-  <p class="section-sub" style="color:rgba(255,255,255,.8);margin:0 auto 40px">Desarrollo de software y estrategias digitales de alto impacto para negocios que miran al futuro.</p>
+  <h2 class="section-title" id="cta-titulo" style="color:#fff">¿Hablamos de tu<br>próxima web?</h2>
+  <p class="section-sub" style="color:rgba(255,255,255,.8);margin:0 auto 40px">Cuéntanos qué necesitas y te enviamos un presupuesto claro el mismo día. Sin compromiso y sin tecnicismos.</p>
   <div class="cta-btns">
     <a href="https://wa.me/message/OKU7WWNGJ3ARD1?text=Hola!%20Quiero%20presupuesto%20para%20un%20proyecto%20web" target="_blank" rel="noopener noreferrer" class="btn-primary-cta"><span aria-hidden="true">💬</span> Presupuesto por WhatsApp</a>
     <a href="https://calendly.com/vorticedev/30min" target="_blank" rel="noopener noreferrer" class="btn-outline-cta"><span aria-hidden="true">📅</span> Reservar consultoría online</a>
-    <button class="btn-outline-cta" onclick="toggleCart()" aria-label="Ver mi presupuesto"><span aria-hidden="true">🛒</span> Ver presupuesto</button>
   </div>
 </section>
 
@@ -838,7 +885,7 @@ section {
 <footer role="contentinfo" aria-label="Información de VorticeDev">
   <p class="footer-brand">VORTICEDEV™</p>
   <p style="font-size:12px;margin-top:4px;color:rgba(255,255,255,.4)">Agencia de Desarrollo Web &amp; Optimización IA</p>
-  <p style="font-size:11px;color:rgba(255,255,255,.3);margin-top:8px">© 2025 vorticedev.com</p>
+  <p style="font-size:11px;color:rgba(255,255,255,.3);margin-top:8px">© 2025 VorticeDev</p>
   <ul class="footer-links" role="list" style="margin-top:24px">
     <li><a href="#servicios">Planes Web</a></li>
     <li><a href="#diferencial">Módulos Extra</a></li>
@@ -846,10 +893,10 @@ section {
     <li><a href="https://wa.me/message/OKU7WWNGJ3ARD1" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
   </ul>
   <p style="font-size:11px;color:rgba(255,255,255,.3);margin-top:12px">📍 Desarrollo para toda España · Soporte Remoto</p>
+  <p style="font-size:12px;margin-top:8px"><a href="mailto:tuweben24horas@digitalhome.website" style="color:rgba(255,255,255,.55)">tuweben24horas@digitalhome.website</a></p>
 </footer>
 
 <div class="footer-legal" role="contentinfo">
-  <a href="https://www.instagram.com/vorticedev" target="_blank" rel="noopener noreferrer">Instagram</a>
   <a href="politica-privacidad.html">Política de privacidad</a>
 </div>
 
@@ -1230,22 +1277,24 @@ function toggleExtra(id) {
   for(var i=0;i<EXTRAS.length;i++){if(EXTRAS[i].id===id){ex=EXTRAS[i];break;}}
   if(!ex || ex.tagType === 'free') return;
 
-  if(activeExtras[id]){
-    activeExtras[id] = false;
-    removeItem(ex.title);
-  } else {
-    activeExtras[id] = true;
-    addToCart(ex.title, ex.price);
-  }
+  activeExtras[id] = !activeExtras[id];
   buildExtrasGrid();
-  renderCart();
+}
+
+function pedirModulosWA(){
+  var sel=[];
+  for(var i=0;i<EXTRAS.length;i++){ if(activeExtras[EXTRAS[i].id]){ sel.push('\u2022 '+EXTRAS[i].title+' ('+EXTRAS[i].priceLabel+')'); } }
+  var msg = sel.length
+    ? 'Hola! Me interesan estos m\u00f3dulos para mi web:\n'+sel.join('\n')+'\n\n\u00bfMe pas\u00e1is presupuesto?'
+    : 'Hola! Quiero informaci\u00f3n sobre los m\u00f3dulos para mi web.';
+  window.open('https://wa.me/message/OKU7WWNGJ3ARD1?text='+encodeURIComponent(msg),'_blank','noopener');
 }
 
 /* ============================================================
    SERVICES CATALOG
    ============================================================ */
 var SVCS = [
-  {id:'web',icon:'🌐',title:'Páginas Web & Digital',desc:'No es una Páginas Web màs, es que la IA te encuentre y te recomiende',
+  {id:'web',icon:'🌐',title:'Páginas Web & Digital',desc:'Webs rápidas y a medida, fáciles de encontrar en Google y listas para vender.',
    note:'Desarrollo profesional con código 100% tuyo.',
    webMode:true,
    prods:[{n:'Web BÁSICO Pago inicial',p:397,tier:'basico',
@@ -1285,8 +1334,8 @@ function buildWebBody(svc){
     // Colapsable de detalles
     h+='<div id="wdetails-'+tier.key+'" class="web-details-pane"><div style="padding:16px;white-space:pre-line;font-size:13px;line-height:1.5;color:#444">'+(ini.desc||'')+'';
     h+='<div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap">';
-    if(ini)h+='<button class="btn-add" onclick="addToCart(\''+ini.n+'\','+ini.p+')">+ Plan Inicial ('+ini.p+'€)</button>';
-    if(mon)h+='<button class="btn-add" onclick="addToCart(\''+mon.n+'\','+mon.p+')">+ Mantenimiento ('+mon.p+'€)</button>';
+    if(ini)h+='<a class="btn-add" href="https://wa.me/message/OKU7WWNGJ3ARD1?text='+encodeURIComponent('Hola! Me interesa el plan web '+tier.label+' (desde '+ini.p+'€). ¿Me pasáis presupuesto?')+'" target="_blank" rel="noopener">Pedir presupuesto ('+ini.p+'€)</a>';
+    if(mon)h+='<a class="btn-add" href="https://wa.me/message/OKU7WWNGJ3ARD1?text='+encodeURIComponent('Hola! Quiero info del mantenimiento mensual del plan '+tier.label+' ('+mon.p+'€/mes).')+'" target="_blank" rel="noopener">Mantenimiento ('+mon.p+'€/mes)</a>';
     h+='</div></div></div></div>';
   }
   h+='</div>';return h;
